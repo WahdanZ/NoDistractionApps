@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.wahdanz.testbridschallenge.MainActivity">
+    <item
+            android:id="@+id/toggleservice"
+            android:title="@string/toggle_service" app:showAsAction="ifRoom"
+            app:actionViewClass="android.widget.Switch"/>
+    <item
+            android:id="@+id/action_settings"
+            android:orderInCategory="100"
+            android:title="@string/action_settings"
+            app:showAsAction="never"/>
+</menu>
