@@ -14,19 +14,11 @@ object Depends {
         const val materialDesign = "com.google.android.material:material:1.0.0-rc01"
     }
 
-    object Lint {
-        const val kotlin = "org.jmailen.gradle:kotlinter-gradle:${Versions.kotlinter}"
-    }
-
     object Rx {
         const val Java = "io.reactivex.rxjava2:rxjava:${Versions.Rx.java}"
         const val Android = "io.reactivex.rxjava2:rxandroid:${Versions.Rx.android}"
     }
 
-
-    object Coroutines {
-        const val coroutinesAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}"
-    }
 
     object Koin {
         const val android = "org.koin:koin-androidx-scope:${Versions.koinVersion}"

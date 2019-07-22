@@ -36,7 +36,6 @@ dependencies {
     implementation(Depends.AndroidX.recyclerview)
     implementation(Depends.AndroidX.constraintLayout)
     implementation(Depends.AndroidX.materialDesign)
-    implementation(Depends.Coroutines.coroutinesAndroid)
     implementation(Depends.Koin.android)
     implementation(Depends.Koin.viewModel)
     implementation(Depends.Koin.ext)
