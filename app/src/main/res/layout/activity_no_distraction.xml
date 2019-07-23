@@ -8,7 +8,7 @@
         tools:context="com.wahdanz.testbridschallenge.NoDistractionActivity" android:background="#E91E63">
 
     <TextView
-            android:text="NO Distraction Mode"
+            android:text="@string/no_distraction_mode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="30sp"
